@@ -7,7 +7,7 @@ metadata:
 spec:
   replicas: 3
   selector:
-    matchLabels:
+    matchLabels: # This also can match other pods with the same label that was not created by this ReplicaSet
       app: myapp
   template:
     metadata:
