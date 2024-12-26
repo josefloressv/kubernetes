@@ -1,10 +1,11 @@
 # Definition
 
 ## kind and apiVersion
-| Kind        | Version  |
-|-------------|----------|
-| Pod         | v1       |
-| Service     | v1       |
-| ReplicaSet  | apps/v1  |
-| Deployments | apps/v1  |
+| Kind                  | Version  | Note                                      |
+|-----------------------|----------|-------------------------------------------|
+| Pod                   | v1       |                                           |
+| Service               | v1       |                                           |
+| ReplicationController | v1       | Considered legacy, use ReplicaSet instead |
+| ReplicaSet            | apps/v1  |                                           |
+| Deployments           | apps/v1  |                                           |
 
